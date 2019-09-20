@@ -463,10 +463,6 @@ p{
     font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 @media only screen and (max-width: 576px) {
-    .styleMy{
-        /* z-index: 12; */
-        /* background: radial-gradient(#000, transparent); */
-    }
     .boy{
         display: none;
     }
@@ -477,9 +473,6 @@ p{
 @media only screen and (max-width: 992px) {
     .boy{
         right: 0;
-    }
-    .styleMy{
-        /* z-index: 12; */
     }
 }
 @media only screen and (max-width: 768px) {

@@ -24,18 +24,13 @@ $(document).ready(function () {
         $(this).addClass('activeLink');
     })
     let top = $('.menuFix').offset().top;
-    // $('.welcome').css('padding-top', '250px')
     $(document).scroll(function(){
       let y = $(this).scrollTop();
       $('.boy').css('transform','translateY('+ y/2 + 'px)');
-      $('.welcome').css('transform','translateY('+ y/2 + 'px)');
-      // $('.boy').css('transform','scale('+ scale +0.1 + + 'px)')
       if(y > top){
         $('.menuFix').addClass('showFixedMenu');
-        // $('header').css('box-shadow','inset 0 -57px 83px -62px #000000')
       }else{
         $('.menuFix').removeClass('showFixedMenu');
-        // $('header').css('box-shadow','inset 0 0 0 0 #000000')
       }
     })
 
